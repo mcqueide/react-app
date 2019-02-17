@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ExampleComponent from 'react-lib';
 import './App.css';
+import {Button} from "my-react-lib/src/Button";
 
 class App extends Component {
   render() {
     return (
-      <ExampleComponent text='meu teste'/>
+      <Button text='blabla'/>
     );
   }
 }

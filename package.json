@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-lib": "git+https://github.com/mcqueide/react-lib.git",
+    "my-react-lib": "https://github.com/mcqueide/my-react-lib.git",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-scripts": "2.1.3"
   },
   "scripts": {
