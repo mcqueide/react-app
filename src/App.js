@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import {Button} from "my-react-lib/src/Button";
+import {utilFunction} from "my-react-lib/src/util";
+import {Button} from "my-react-lib/src/components/Button";
 
 class App extends Component {
-  render() {
-    return (
-      <Button text='blabla'/>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <p>{utilFunction()}</p>
+                <Button text='teste'/>
+            </div>
+        );
+    }
 }
 
 export default App;
